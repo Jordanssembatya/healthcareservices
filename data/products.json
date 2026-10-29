@@ -1,0 +1,217 @@
+{
+  "_notice": "SAMPLE DATA for illustration. Product names, insurers, prices and contact details are fictional. Set isSample to false only for data confirmed by the insurer. A null value means the information was not supplied; the app shows 'Not provided. Ask the insurer.' Never fill nulls with guesses.",
+  "products": [
+    {
+      "id": "essential-care",
+      "isSample": true,
+      "name": "Essential Care",
+      "insurer": "Mosaic Health Mutual",
+      "type": "Community health scheme",
+      "audience": ["vendors", "individuals"],
+      "targetGroup": "Individuals in informal work, such as market vendors, farmers and casual labourers",
+      "summary": "Low-cost cover for clinic visits and hospital stays at partner clinics.",
+      "premium": { "amount": 15000, "currency": "UGX", "period": "month", "note": "per person" },
+      "coverage": [
+        "Outpatient consultations at partner clinics",
+        "Inpatient care (hospital stay), including ward bed and meals",
+        "Basic lab tests such as malaria and blood count",
+        "Prescribed generic medicines"
+      ],
+      "exclusions": [
+        "Pre-existing conditions during the first 12 months",
+        "Treatment at clinics outside the partner list, except emergencies",
+        "Dental and eye care",
+        "Cosmetic surgery"
+      ],
+      "benefitLimits": [
+        { "benefit": "Inpatient", "limit": "Up to UGX 5,000,000 per year" },
+        { "benefit": "Outpatient", "limit": "Up to UGX 1,000,000 per year" },
+        { "benefit": "Medicines", "limit": "Counted within the outpatient limit" }
+      ],
+      "waitingPeriod": "30 days for illness. No waiting period for accidents.",
+      "coPay": "UGX 2,000 per outpatient visit",
+      "enrolment": {
+        "requirements": [
+          "Main member aged 18 to 65",
+          "Pay the first month's premium before cover starts"
+        ],
+        "documents": [
+          "National ID or refugee ID",
+          "One passport-size photo",
+          "Birth certificates for any children you add"
+        ],
+        "steps": [
+          "Call or WhatsApp the agent to confirm the plan is still available",
+          "Meet the agent or visit the office with your documents",
+          "Fill in the enrolment form with the agent",
+          "Pay the first premium by mobile money and keep the receipt",
+          "Collect your member card and the list of partner clinics"
+        ]
+      },
+      "contact": {
+        "agentName": "Kampala Central agent desk",
+        "phone": "+256 700 000 001",
+        "whatsapp": "+256700000001",
+        "website": "https://example.com/essential-care",
+        "officeAddress": null,
+        "hours": "Monday to Saturday, 8 AM to 6 PM"
+      }
+    },
+    {
+      "id": "ridesafe-health",
+      "isSample": true,
+      "name": "RideSafe Health",
+      "insurer": "Roadwise Micro-Insurance",
+      "type": "Micro-insurance",
+      "audience": ["riders"],
+      "targetGroup": "Boda boda riders and other transport workers",
+      "summary": "Built around road accidents, with smaller cover for everyday illness.",
+      "premium": { "amount": 10000, "currency": "UGX", "period": "month", "note": "per rider" },
+      "coverage": [
+        "Emergency treatment after a road accident",
+        "Ambulance or emergency transport to hospital",
+        "Inpatient care after an accident or illness",
+        "Limited outpatient care for illness"
+      ],
+      "exclusions": [
+        "Injuries while riding under the influence of alcohol or drugs",
+        "Maternity care",
+        "Ongoing care for chronic illness such as diabetes",
+        "Injuries from racing or illegal activity"
+      ],
+      "benefitLimits": [
+        { "benefit": "Accident emergency care", "limit": "Up to UGX 3,000,000 per accident" },
+        { "benefit": "Inpatient", "limit": "Up to UGX 2,000,000 per year" },
+        { "benefit": "Outpatient", "limit": "Up to UGX 300,000 per year" },
+        { "benefit": "Emergency transport", "limit": null }
+      ],
+      "waitingPeriod": "No waiting period for accidents. 60 days for illness.",
+      "coPay": null,
+      "enrolment": {
+        "requirements": [
+          "Active boda boda rider aged 18 or over",
+          "Member of a registered stage or riders' association"
+        ],
+        "documents": [
+          "National ID",
+          "Stage or association membership card",
+          "Riding permit"
+        ],
+        "steps": [
+          "Ask your stage chairperson about group enrolment days",
+          "Call or WhatsApp the agent to book a slot",
+          "Bring your documents on enrolment day",
+          "Pay the first premium by mobile money",
+          "Receive your member card by SMS"
+        ]
+      },
+      "contact": {
+        "agentName": "Riders support desk",
+        "phone": "+256 700 000 002",
+        "whatsapp": "+256700000002",
+        "website": null,
+        "officeAddress": null,
+        "hours": null
+      }
+    },
+    {
+      "id": "familyfirst-plus",
+      "isSample": true,
+      "name": "FamilyFirst Plus",
+      "insurer": "Hearth Mutual Health Co-op",
+      "type": "Family health plan",
+      "audience": ["families", "vendors"],
+      "targetGroup": "Families of up to 6 people (2 adults and 4 children)",
+      "summary": "One plan for the whole household, including maternity after a waiting period.",
+      "premium": { "amount": 120000, "currency": "UGX", "period": "quarter", "note": "every 3 months, per family" },
+      "coverage": [
+        "Outpatient visits for all family members",
+        "Inpatient care (hospital stay)",
+        "Maternity care, including normal and caesarean delivery",
+        "Childhood immunisations",
+        "Lab tests and prescribed medicines"
+      ],
+      "exclusions": [
+        "Maternity during the first 10 months of membership",
+        "Fertility treatment",
+        "Treatment abroad",
+        "Spectacles and hearing aids"
+      ],
+      "benefitLimits": [
+        { "benefit": "Inpatient", "limit": "Up to UGX 8,000,000 per family per year" },
+        { "benefit": "Outpatient", "limit": "Up to UGX 2,000,000 per family per year" },
+        { "benefit": "Maternity", "limit": "Up to UGX 1,500,000 per pregnancy" }
+      ],
+      "waitingPeriod": "10 months for maternity. 30 days for other illness.",
+      "coPay": "10% of each outpatient bill",
+      "enrolment": {
+        "requirements": [
+          "Main member aged 18 to 60",
+          "All family members must join at the same time",
+          "Pay the first quarter's premium"
+        ],
+        "documents": [
+          "National ID for each adult",
+          "Birth certificate or immunisation card for each child",
+          "One passport-size photo per family member",
+          "Marriage certificate or LC1 letter confirming the household (ask the insurer which is accepted)"
+        ],
+        "steps": [
+          "Call the co-op office to confirm the plan and the documents needed",
+          "Gather documents for every family member",
+          "Visit the co-op office to fill in the family form",
+          "Pay the first quarter's premium",
+          "Collect a member card for each family member"
+        ]
+      },
+      "contact": {
+        "agentName": "Member services",
+        "phone": "+256 700 000 003",
+        "whatsapp": null,
+        "website": "https://example.org/familyfirst-plus",
+        "officeAddress": null,
+        "hours": "Monday to Friday, 9 AM to 5 PM"
+      }
+    },
+    {
+      "id": "clinic-starter",
+      "isSample": true,
+      "name": "Clinic Starter",
+      "insurer": "Larkspur Assurance",
+      "type": "Outpatient-only plan",
+      "audience": ["individuals"],
+      "targetGroup": "Young adults who want cheap cover for clinic visits",
+      "summary": "Clinic visits only. Some details were not supplied, so check them with the insurer.",
+      "premium": { "amount": 5000, "currency": "UGX", "period": "month", "note": null },
+      "coverage": [
+        "Outpatient consultations",
+        "Basic lab tests"
+      ],
+      "exclusions": null,
+      "benefitLimits": [
+        { "benefit": "Outpatient", "limit": null }
+      ],
+      "waitingPeriod": null,
+      "coPay": null,
+      "enrolment": {
+        "requirements": [
+          "Aged 18 or over"
+        ],
+        "documents": null,
+        "steps": [
+          "Call or WhatsApp the insurer and ask for the full plan details",
+          "Ask which documents you need to bring",
+          "Pay the first premium"
+        ]
+      },
+      "contact": {
+        "agentName": null,
+        "phone": "+256 700 000 004",
+        "whatsapp": "+256700000004",
+        "website": null,
+        "officeAddress": null,
+        "hours": null
+      }
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+[
+  {
+    "id": "premium",
+    "term": "Premium",
+    "matches": ["premium", "premiums"],
+    "definition": "The amount you pay to the insurer to keep your cover active, for example every month. You pay it whether or not you get sick.",
+    "example": "UGX 15,000 every month."
+  },
+  {
+    "id": "exclusion",
+    "term": "Exclusion",
+    "matches": ["exclusion", "exclusions"],
+    "definition": "Something the plan will NOT pay for. If you get treatment for an excluded item, you pay the full cost yourself.",
+    "example": "Dental care is excluded, so the plan will not pay for a tooth filling."
+  },
+  {
+    "id": "waiting-period",
+    "term": "Waiting period",
+    "matches": ["waiting period", "waiting periods"],
+    "definition": "The time after you join when you cannot claim yet for some services. You still pay premiums during this time.",
+    "example": "A 10-month waiting period for maternity means you cannot use maternity cover until 10 months after joining."
+  },
+  {
+    "id": "co-pay",
+    "term": "Co-pay",
+    "matches": ["co-pay", "copay", "co-payment"],
+    "definition": "A small part of the bill that you pay yourself each time you get treatment. The insurer pays the rest.",
+    "example": "A co-pay of UGX 2,000 per visit: the clinic bill is UGX 20,000, you pay 2,000 and the insurer pays 18,000."
+  },
+  {
+    "id": "benefit-limit",
+    "term": "Benefit limit",
+    "matches": ["benefit limit", "benefit limits"],
+    "definition": "The most the insurer will pay for a type of care in a set time, usually a year. Costs above the limit are yours to pay.",
+    "example": "Inpatient up to UGX 5M per year: after the insurer has paid UGX 5M that year, you pay any further hospital costs."
+  },
+  {
+    "id": "inpatient",
+    "term": "Inpatient",
+    "matches": ["inpatient"],
+    "definition": "Care when you are admitted and stay in hospital, usually overnight or longer.",
+    "example": null
+  },
+  {
+    "id": "outpatient",
+    "term": "Outpatient",
+    "matches": ["outpatient"],
+    "definition": "Care where you visit a clinic or hospital and go home the same day, such as a consultation or lab test.",
+    "example": null
+  },
+  {
+    "id": "pre-existing-condition",
+    "term": "Pre-existing condition",
+    "matches": ["pre-existing condition", "pre-existing conditions"],
+    "definition": "An illness or health problem you already had before you joined the plan. Many plans do not cover these at first.",
+    "example": null
+  },
+  {
+    "id": "dependant",
+    "term": "Dependant",
+    "matches": ["dependant", "dependants"],
+    "definition": "A family member, such as a spouse or child, covered under the main member's plan.",
+    "example": null
+  },
+  {
+    "id": "maternity",
+    "term": "Maternity cover",
+    "matches": ["maternity"],
+    "definition": "Cover for pregnancy check-ups, giving birth and care right after birth.",
+    "example": null
+  },
+  {
+    "id": "partner-clinic",
+    "term": "Partner clinic",
+    "matches": ["partner clinic", "partner clinics", "partner list"],
+    "definition": "A clinic or hospital that has an agreement with the insurer. You usually must use these for the plan to pay.",
+    "example": null
+  },
+  {
+    "id": "claim",
+    "term": "Claim",
+    "matches": ["claim"],
+    "definition": "A request to the insurer to pay for treatment you received.",
+    "example": null
+  }
+]
